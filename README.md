@@ -31,8 +31,7 @@ An interactive dashboard built with `shinydashboard` includes:
 ## 📁 Project Structure
 
 ```plaintext
-📂 data/
-    └── data.xlsx             # Monthly TB incidence data
+📄  data.xlsx      # Monthly TB incidence data
 📄 Tuberculosis.qmd           # Time series report (Quarto format)
 📄 app.R                      # Shiny dashboard code
 📄 README.md                  # This file
