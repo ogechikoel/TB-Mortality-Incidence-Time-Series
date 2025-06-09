@@ -6,13 +6,13 @@ In this project, I conducted a comprehensive time series analysis of tuberculosi
 
 To make the analysis interactive and user-friendly, I also built a Shiny dashboard where you can:
 
-Explore trends and seasonality in TB incidence
-
-View model diagnostics such as residuals and decompositions
-
-Generate forecasts for future TB incidence with just a click
+- Explore trends and seasonality in TB incidence
+-View model diagnostics such as residuals and decompositions
+-Generate forecasts for future TB incidence with just a click
 
 I created this project out of curiosity and a passion for making data insights more accessible. Feel free to explore, fork the repo, or reach out if you have feedback or are working on similar public health projects.
+
+
 ---
 
 ## 📦 Features
@@ -38,6 +38,10 @@ An interactive dashboard built with `shinydashboard` includes:
 - **Footer**: Contact and organization info (DataQuest Solutions).
 
 - **Explore the shiny app using this link**: (https://dz01yb-ogechi-koel.shinyapps.io/tb_incidence/)
+
+###  📞 CONTACT 
+Feel free to reach out to me with any questions, feedback, or collaboration ideas:
+-📧 **Email** (Ogechikoel@gmail.com)
 
 ---
 
