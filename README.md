@@ -1,36 +1,38 @@
-# Tuberculosis Forecasting in Wuhan, China
+# Tuberculosis Forecasting and Interactive Dashboard in Wuhan, China
 
-This project, authored by **Ogechi Daniel Koel**, analyzes monthly tuberculosis (TB) incidence data in Wuhan, China, from 2012 to 2019. The goal is to build a time series model to **forecast TB incidence for the next three years** using SARIMA, capturing both seasonal effects and long-term trends.
+This project, developed by **Ogechi Daniel Koel**, provides a comprehensive time series analysis of tuberculosis (TB) incidence in Wuhan, China from **2012 to 2019** using ARIMA/SARIMA models. In addition, an interactive **Shiny dashboard** allows users to explore trends, model diagnostics, and forecast future TB incidence dynamically.
+
+---
+
+## 📦 Features
+
+### 📈 Time Series Analysis
+
+- Seasonal ARIMA model (`SARIMA`) selected via `auto.arima()`.
+- Diagnostic plots: trend, seasonality, residuals.
+- 3-year TB incidence forecast with confidence intervals.
+
+### 🖥️ Shiny Web App
+
+An interactive dashboard built with `shinydashboard` includes:
+
+- **Home Tab**: Project background and introduction.
+- **Dashboard Tab**:
+  - Forecasting interface for user-defined months (6–120 months).
+  - Dynamic plot and forecast table output.
+- **Model Diagnostics Tab**:
+  - General trend, decomposed plots.
+  - Seasonality visualization.
+  - Residual diagnostics (normality, homoscedasticity, autocorrelation).
+- **Footer**: Contact and organization info (DataQuest Solutions).
+
+---
 
 ## 📁 Project Structure
 
-- `data/data.xlsx` - The dataset containing monthly TB incidence.
-- Quarto (`.qmd`) document - Performs all data processing, visualization, and modeling.
-- Output - A Word document with full analysis (as specified via `format: docx` in Quarto).
-
-## 📊 Methods Used
-
-- Time Series Conversion & Visualization
-- Seasonal Decomposition
-- Model Fitting using `auto.arima()`
-- Forecasting future incidence (3 years)
-- Model Diagnostics:
-  - Normality of residuals
-  - Homoscedasticity
-  - Autocorrelation via Ljung-Box and ACF
-
-## 📦 Libraries Used
-
-- `tidyverse`
-- `forecast`
-- `tseries`
-- `readxl`
-- `here`
-- `flextable`
-
-## 📈 Highlights
-
-- TB incidence showed **seasonal patterns**, peaking around March.
-- SARIMA model was selected automatically and passed all diagnostic checks.
-- Forecasted TB incidence suggests a **declining trend**, potentially due to public health improvements.
-
+```plaintext
+📂 data/
+    └── data.xlsx             # Monthly TB incidence data
+📄 Tuberculosis.qmd           # Time series report (Quarto format)
+📄 app.R                      # Shiny dashboard code
+📄 README.md                  # This file
