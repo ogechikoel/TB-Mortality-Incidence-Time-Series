@@ -26,6 +26,8 @@ An interactive dashboard built with `shinydashboard` includes:
   - Residual diagnostics (normality, homoscedasticity, autocorrelation).
 - **Footer**: Contact and organization info (DataQuest Solutions).
 
+- **Explore the shiny app using this link**: (https://dz01yb-ogechi-koel.shinyapps.io/tb_incidence/)
+
 ---
 
 ## 📁 Project Structure
@@ -36,4 +38,4 @@ An interactive dashboard built with `shinydashboard` includes:
 📄 app.R                      # Shiny dashboard code
 📄 README.md                  # This file
 
-**Explore the shiny app using this link**: (https://dz01yb-ogechi-koel.shinyapps.io/tb_incidence/)
+
