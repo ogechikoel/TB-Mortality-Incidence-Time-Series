@@ -35,3 +35,5 @@ An interactive dashboard built with `shinydashboard` includes:
 📄 Tuberculosis.qmd           # Time series report (Quarto format)
 📄 app.R                      # Shiny dashboard code
 📄 README.md                  # This file
+
+**Explore the shiny app using this link**: (https://dz01yb-ogechi-koel.shinyapps.io/tb_incidence/)
