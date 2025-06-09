@@ -1,7 +1,18 @@
 # Tuberculosis Forecasting and Interactive Dashboard in Wuhan, China
 
-This project, developed by **Ogechi Daniel Koel**, provides a comprehensive time series analysis of tuberculosis (TB) incidence in Wuhan, China from **2012 to 2019** using ARIMA/SARIMA models. In addition, an interactive **Shiny dashboard** allows users to explore trends, model diagnostics, and forecast future TB incidence dynamically.
+Hi! I’m Ogechi Daniel Koel, a Data Scientist and Biostatistician at DataQuest Solutions. 
 
+In this project, I conducted a comprehensive time series analysis of tuberculosis (TB) incidence in Wuhan, China from 2012 to 2019, using ARIMA/SARIMA models to capture seasonal patterns and long-term trends.
+
+To make the analysis interactive and user-friendly, I also built a Shiny dashboard where you can:
+
+Explore trends and seasonality in TB incidence
+
+View model diagnostics such as residuals and decompositions
+
+Generate forecasts for future TB incidence with just a click
+
+I created this project out of curiosity and a passion for making data insights more accessible. Feel free to explore, fork the repo, or reach out if you have feedback or are working on similar public health projects.
 ---
 
 ## 📦 Features
